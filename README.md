@@ -7,12 +7,12 @@
 
 ## Overview
 
-This repository contains the code for **GBAF** (Graph-Based Attention Framework), a deep learning model designed to predict interactions between microRNAs (miRNAs) and messenger RNAs (mRNAs). Understanding these interactions is critical for studying gene expression regulation and their implications in diseases. 
+This repository contains the code for **GRMMI** , a deep learning model designed to predict interactions between microRNAs (miRNAs) and messenger RNAs (mRNAs). Understanding these interactions is critical for studying gene expression regulation and their implications in diseases. 
 
-GBAF overcomes limitations in existing models by efficiently handling RNA sequence complexities and graph structural information. It integrates both sequence-based and graph-based features to achieve high prediction performance.
+GRMMI overcomes limitations in existing models by efficiently handling RNA sequence complexities and graph structural information. It integrates both sequence-based and graph-based features to achieve high prediction performance.
 
 ### Key Features:
-- **Pretraining of RNA Sequences**: GBAF uses **FastText** for pretraining RNA sequences, which enriches feature extraction by embedding semantic and contextual information.
+- **Pretraining of RNA Sequences**: GRMMI uses **FastText** for pretraining RNA sequences, which enriches feature extraction by embedding semantic and contextual information.
 - **Graph Embedding**: The model incorporates **GraRep** graph embedding to capture topological features and node features from RNA interaction networks.
 - **Multi-Level Feature Extraction**: Combines **CNN-BiLSTM** with a **mutual attention mechanism** to explore both local and global dependencies within RNA sequences.
 - **MiRNA-mRNA Orientation**: Processes mRNA sequences by reversing their orientation to simulate complementary binding relationships with miRNAs.
