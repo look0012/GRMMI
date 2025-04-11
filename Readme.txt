@@ -7,7 +7,7 @@
 
 ## Overview
 
-This repository contains the code for **GRMMI** , a deep learning model designed to predict interactions between microRNAs (miRNAs) and messenger RNAs (mRNAs). Understanding these interactions is critical for studying gene expression regulation and their implications in diseases. 
+This repository contains the code for **GRMMI**, a deep learning model designed to predict interactions between microRNAs (miRNAs) and messenger RNAs (mRNAs). Understanding these interactions is critical for studying gene expression regulation and their implications in diseases.
 
 GRMMI overcomes limitations in existing models by efficiently handling RNA sequence complexities and graph structural information. It integrates both sequence-based and graph-based features to achieve high prediction performance.
 
@@ -18,6 +18,8 @@ GRMMI overcomes limitations in existing models by efficiently handling RNA seque
 - **MiRNA-mRNA Orientation**: Processes mRNA sequences by reversing their orientation to simulate complementary binding relationships with miRNAs.
 
 The model achieves excellent results on the **MTIS-9214 dataset**, demonstrating strong predictive performance with an AUC of 0.9347 and an accuracy of 86.65%.
+## Data Note
+Due to file size limitations on GitHub, some files in the data directory have been uploaded to a cloud storage service. You can access these files via the following link:  https://pan.baidu.com/s/1jccXYdT1BWpjzE3VyhLmhg?pwd=9214. Please download the necessary files and place them in the `data` directory before running the code.
 
 ## Requirements
 
@@ -32,3 +34,8 @@ You can install the required dependencies using `pip`:
 
 ```bash
 pip install tensorflow keras numpy scikit-learn matplotlib
+
+---
+
+
+
